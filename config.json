@@ -1,0 +1,150 @@
+{
+  "serial": {
+    "port": "",
+    "baudrate": 115200
+  },
+  "global_settings": {
+    "channels": [
+      {
+        "ch_id": 0,
+        "name": "",
+        "current": "",
+        "max": "",
+        "min": "",
+        "step": ""
+      },
+      {
+        "ch_id": 1,
+        "name": "",
+        "current": "",
+        "max": "",
+        "min": "",
+        "step": ""
+      },
+      {
+        "ch_id": 2,
+        "name": "",
+        "current": "",
+        "max": "",
+        "min": "",
+        "step": ""
+      },
+      {
+        "ch_id": 3,
+        "name": "",
+        "current": "",
+        "max": "",
+        "min": "",
+        "step": ""
+      },
+      {
+        "ch_id": 4,
+        "name": "",
+        "current": "",
+        "max": "",
+        "min": "",
+        "step": ""
+      },
+      {
+        "ch_id": 5,
+        "name": "",
+        "current": "1",
+        "max": "",
+        "min": "",
+        "step": ""
+      },
+      {
+        "ch_id": 6,
+        "name": "",
+        "current": "1",
+        "max": "",
+        "min": "",
+        "step": ""
+      },
+      {
+        "ch_id": 7,
+        "name": "",
+        "current": "",
+        "max": "",
+        "min": "",
+        "step": ""
+      }
+    ]
+  },
+  "modes": [
+    {
+      "id": "m_4c44c7374f70",
+      "level1": "1",
+      "level2": "",
+      "level3": "",
+      "lock_rules": [
+        "locked",
+        "unlocked",
+        "unlocked",
+        "unlocked",
+        "locked",
+        "locked",
+        "locked",
+        "locked"
+      ],
+      "locked_values": [
+        "1",
+        "",
+        "",
+        "",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "limits": [
+        {
+          "max": null,
+          "min": null,
+          "step": null
+        },
+        {
+          "max": null,
+          "min": null,
+          "step": null
+        },
+        {
+          "max": null,
+          "min": null,
+          "step": null
+        },
+        {
+          "max": null,
+          "min": null,
+          "step": null
+        },
+        {
+          "max": null,
+          "min": null,
+          "step": null
+        },
+        {
+          "max": null,
+          "min": null,
+          "step": null
+        },
+        {
+          "max": null,
+          "min": null,
+          "step": null
+        },
+        {
+          "max": null,
+          "min": null,
+          "step": null
+        }
+      ],
+      "command_template": null,
+      "mcu_limit": {
+        "max": null,
+        "min": null
+      }
+    }
+  ],
+  "global_command_template": "SET CH{n}={val}\n"
+}
